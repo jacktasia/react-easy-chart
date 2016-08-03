@@ -1,6 +1,6 @@
 {
-  "name": "react-easy-chart",
-  "version": "0.1.4",
+  "name": "react-easy-chart-jacktasia-fork",
+  "version": "0.1.10",
   "description": "React component implementations of Mike Bostok's D3 visualisation library.",
   "main": "index.js",
   "scripts": {
@@ -8,24 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rma-consulting/react-easy-chart.git"
+    "url": "git+https://github.com/jacktasia/react-easy-chart.git"
   },
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/rma-consulting/react-easy-chart/issues"
+    "url": "https://github.com/jacktasia/react-easy-chart/issues"
   },
-  "homepage": "https://github.com/rma-consulting/react-easy-chart#readme",
+  "homepage": "https://github.com/jacktasia/react-easy-chart#readme",
   "devDependencies": {},
+  "peerDependencies": {
+    "d3": "^3.5.17",
+    "d3-array": "^0.8.1",
+    "d3-scale": "^0.9.3",
+    "d3-shape": "^0.7.1",
+    "d3-time-format": "^0.4.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-faux-dom": "^2.5.0"
+  },
   "dependencies": {
-    "d3": "^3.5.x",
-    "d3-array": "^0.6.x",
-    "d3-time-format": "^0.2.x",
-    "d3-scale": "^0.3.x",
-    "d3-shape": "^0.2.x",
     "lodash.merge": "^4.0.x",
     "radium": "^0.15.x",
-    "react": "^0.14.x",
-    "react-dom": "^0.14.x",
-    "react-faux-dom": "^2.1.x"
+    "object-hash": "^1.1.4"
   }
 }
